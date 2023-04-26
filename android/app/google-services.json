@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "788529908358",
+    "project_id": "book-app-d801a",
+    "storage_bucket": "book-app-d801a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788529908358:android:d5741712e33c0c2d605f07",
+        "android_client_info": {
+          "package_name": "com.bookSP.firebase_book_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788529908358-q8oecfnj2ura2un6sug38h88dipjdl57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC-0xo7kgJB4c2PRUm0ALHX72unCR1PpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788529908358-q8oecfnj2ura2un6sug38h88dipjdl57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
