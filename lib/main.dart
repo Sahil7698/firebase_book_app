@@ -1,6 +1,7 @@
 import 'dart:async';
 
-import 'package:firebase_book_app/view/screens/add_book_details.dart';
+import 'package:firebase_book_app/view/screens/add_page.dart';
+import 'package:firebase_book_app/view/screens/home_page.dart';
 import 'package:firebase_book_app/view/screens/login_page.dart';
 import 'package:firebase_book_app/view/screens/registration_page.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -22,6 +23,7 @@ void main() async {
         'login_page': (context) => const LoginPage(),
         'registration_page': (context) => const RegistrationPage(),
         'home_page': (context) => const HomePage(),
+        'add_page': (context) => const AddPage(),
       },
     ),
   );
