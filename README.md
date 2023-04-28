@@ -14,3 +14,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Full Demo
+<img src = "https://user-images.githubusercontent.com/114761517/234497608-0029a66f-5577-4ad6-884f-6a40f9f93abd.gif" width = "200px">
+
+# Screen Short
+<img src = "https://user-images.githubusercontent.com/114761517/235076061-7f79f112-886c-4055-b90b-ae0d6a814d70.png" width = "200px">
+<img src = "https://user-images.githubusercontent.com/114761517/235076116-1fd0b1cc-7761-4451-a752-94dee82c92c8.png" width = "200px">
+<img src = "https://user-images.githubusercontent.com/114761517/235076167-3675c7b4-fbf3-4799-9bd7-ec27f3f7aead.png" width = "200px">
+<img src = "https://user-images.githubusercontent.com/114761517/235076679-3ea4abad-1e7a-4a71-ab18-73ab2a535661.png" width = "200px">
+<img src = "https://user-images.githubusercontent.com/114761517/235076488-adb3e8b8-19f8-4b76-bbc7-99a08d84c6b1.png" width = "200px">
+<img src = "https://user-images.githubusercontent.com/114761517/235076818-23cbcac4-e45c-4769-b476-ab44a0a2f1b8.png" width = "200px">
