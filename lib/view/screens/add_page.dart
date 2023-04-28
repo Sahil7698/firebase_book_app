@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../helpers/firebaseauth_helpers.dart';
-
 class AddPage extends StatefulWidget {
   const AddPage({Key? key}) : super(key: key);
 
@@ -68,20 +66,6 @@ class _AddPageState extends State<AddPage> {
           ),
         ),
         centerTitle: true,
-        actions: [
-          IconButton(
-            onPressed: () async {
-              await FirebaseAuthHelper.firebaseAuthHelper.logOut();
-
-              Navigator.of(context)
-                  .pushNamedAndRemoveUntil('login_page', (route) => false);
-            },
-            icon: const Icon(
-              Icons.power_settings_new,
-              color: Colors.white,
-            ),
-          ),
-        ],
       ),
       body: SingleChildScrollView(
         physics: const BouncingScrollPhysics(),

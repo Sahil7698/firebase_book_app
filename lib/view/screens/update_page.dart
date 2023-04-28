@@ -97,13 +97,13 @@ class _UpdatePageState extends State<UpdatePage> {
                             behavior: SnackBarBehavior.floating,
                           ),
                         );
+                        Navigator.of(context).pushReplacementNamed('home_page');
                       },
                       child: const Text('Delete'),
                     ),
                   ],
                 ),
               );
-              Navigator.of(context).pushReplacementNamed('home_page');
             },
             icon: const Icon(Icons.delete),
             color: Colors.white,

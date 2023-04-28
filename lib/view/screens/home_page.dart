@@ -6,6 +6,7 @@ import 'package:firebase_book_app/view/screens/update_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../../helpers/firebaseauth_helpers.dart';
 import '../../helpers/firestores_helper.dart';
 
 class HomePage extends StatefulWidget {
@@ -40,6 +41,20 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            onPressed: () async {
+              await FirebaseAuthHelper.firebaseAuthHelper.logOut();
+
+              Navigator.of(context)
+                  .pushNamedAndRemoveUntil('login_page', (route) => false);
+            },
+            icon: const Icon(
+              Icons.power_settings_new,
+              color: Colors.white,
+            ),
+          ),
+        ],
       ),
       body: StreamBuilder(
         stream: FirestoreHelper.firestoreHelper.fetchRecords(),
