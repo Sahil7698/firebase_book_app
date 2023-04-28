@@ -16,7 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 # Full Demo
-<img src = "https://user-images.githubusercontent.com/114761517/234497608-0029a66f-5577-4ad6-884f-6a40f9f93abd.gif" width = "200px">
+<img src = "https://user-images.githubusercontent.com/114761517/235080403-1d891e6c-6cf1-4f43-b193-e3dac542963b.gif" width = "200px">
 
 # Screen Short
 <img src = "https://user-images.githubusercontent.com/114761517/235076061-7f79f112-886c-4055-b90b-ae0d6a814d70.png" width = "200px">
